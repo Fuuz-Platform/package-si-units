@@ -8,7 +8,7 @@
     ],
     "mainImage": {
       "file": "images/main.png",
-      "alt": "SI Units: Fuuz title card"
+      "alt": "SI Units: Fuuz cover"
     },
     "description": [
       "A Fuuz package containing SI (International System of Units) units of measure, unit types, and unit conversions for the Fuuz platform.",
