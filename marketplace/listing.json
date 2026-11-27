@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "visibility": "public",
+  "overview": {
+    "tagline": "SI Units of Measure Fuuz Package for Fuuz App Installations",
+    "categories": [
+      "Units of measure"
+    ],
+    "mainImage": {
+      "file": "images/main.png",
+      "alt": "SI Units: Fuuz title card"
+    },
+    "description": [
+      "A Fuuz package containing SI (International System of Units) units of measure, unit types, and unit conversions for the Fuuz platform.",
+      "SIUnits@1.0.0.fuuz is a Fuuz platform package that provides a complete set of SI-only units of measure for use in any Fuuz application. It seeds three core data models — UnitType, Unit, and UnitConversion — giving your application a metric-based measurement system out of the box. This package excludes Imperial units, making it ideal for environments that operate exclusively with the metric system."
+    ],
+    "highlights": [
+      {
+        "title": "110 SI units",
+        "body": "Units of measure and unit types for the metric system only."
+      },
+      {
+        "title": "686 conversions",
+        "body": "Pre-built conversion factors between SI units."
+      },
+      {
+        "title": "Replaces the default units",
+        "body": "A fuller unit system than the platform's default seed data, for new Fuuz applications."
+      }
+    ],
+    "screenshots": []
+  },
+  "pricing": {
+    "model": "free",
+    "detail": "Fuuz accelerators are no cost; you pay only for the Fuuz runtime."
+  },
+  "support": {
+    "email": "sales@fuuz.com",
+    "url": "https://github.com/Fuuz-Platform/package-si-units",
+    "sla": "No service level agreement. Supported once implemented by a Fuuz services professional or an approved Fuuz partner.",
+    "phone": ""
+  },
+  "security": {
+    "residency": "In the customer's Fuuz environment",
+    "external": false,
+    "externalDetail": "",
+    "certs": "",
+    "notes": ""
+  },
+  "install": {
+    "prerequisites": [
+      "Fuuz 2026.2.1.782 or later",
+      "Delete the platform's default unit seed data first, or the import conflicts with it.",
+      "Run deleteUnitConversion, then deleteUnit, then deleteUnitType, from deleteSeededUnitData.graphql in the repo. Check the IDs match your environment."
+    ],
+    "steps": [
+      {
+        "text": "Import SIUnits@1.0.0.fuuz into your Fuuz application and confirm the import preview."
+      }
+    ],
+    "after": ""
+  }
+}
